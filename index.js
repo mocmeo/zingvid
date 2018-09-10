@@ -15,7 +15,7 @@ app.use(function(req, res, next) {
 
 require('./routes/mainRoutes')(app);
 
-const link = 'https://news.zing.vn/video-vuot-au-xe-may-nga-vao-gam-xe-container-post875613.html';
+const link = 'https://news.zing.vn/video-singapore-chuan-bi-don-trung-thu-voi-den-long-rong-phuong-ruc-ro-post873952.html';
 const getLink = async () => {
     const res = await axios.get(link);
     var $ = cheerio.load(res.data);
