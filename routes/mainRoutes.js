@@ -1,5 +1,5 @@
-import axios from 'axios';
-import cheerio from 'cheerio';
+const cheerio = require('cheerio');
+const axios = require('axios');
 
 module.exports = (app) => {
     app.get('/', (req, res) => {
