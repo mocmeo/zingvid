@@ -5,7 +5,10 @@ const link = 'https://news.zing.vn/video-singapore-chuan-bi-don-trung-thu-voi-de
 
 const getLink = async () => {
     let res = await axios.post(serverURL, { link });
-    console.log(res);
+    const { title, source } = res.data;
+
+    console.log(title);
+    console.log(source);
 }
 
 getLink();
