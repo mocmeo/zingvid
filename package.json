@@ -22,5 +22,8 @@
     "nodemon": "^1.18.4",
     "passport": "^0.4.0",
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "react-app-rewire-vendor-splitting": "^1.3.0"
   }
 }
