@@ -17,7 +17,8 @@ module.exports = (app) => {
 
                 res.send({
                     title: title,
-                    source: video.attr('src')
+                    source: video.attr('src'),
+                    download_link: video.attr('src')
                 });
             })
             .catch(err => {

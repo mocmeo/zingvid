@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
-import linkReducer from './reducer_link';
+import pageReducer from './reducer_page';
 
-export default combineReducers({
-    link: linkReducer
+const rootReducer = combineReducers({
+    page: pageReducer
 });
+
+export default rootReducer;
